@@ -6,3 +6,9 @@ The influence maximization problem is to find a set of seed nodes which maximize
 # dataset
 
 Google form which asked for the factor which most strongly influenced the consumer’s approach to online shopping out of Family, Friends, Advertisements, Online Scams and Poor Product Quality. The consumer was then asked to rate the severity of the chosen factor on a scale of 1 to 10.This rating has been used as the edge weight in the network graph. The form received 191 responses.
+
+# modules
+
+numpy
+pandas
+scipy
