@@ -13,11 +13,11 @@ with open('sample.csv') as filevar:
 X=factors
 Y=ids
 Z=weights
-B.add_nodes_from(X) 
+B.add_nodes_from(X)
 B.add_nodes_from(Y)
 B.add_weighted_edges_from(rows)
 pos = nx.spring_layout(B, k=0.50)
-scc = list(nx.strongly_connected_components(B))
+scc = list(nx.strongly_connected_components(B)) 
 print scc
 print nx.number_strongly_connected_components(B)
 iterations=10000
