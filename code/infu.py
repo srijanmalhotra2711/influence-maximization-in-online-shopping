@@ -13,7 +13,7 @@ with open('sample.csv') as filevar:
 X=factors
 Y=ids
 Z=weights
-B.add_nodes_from(X)
+B.add_nodes_from(X) 
 B.add_nodes_from(Y)
 B.add_weighted_edges_from(rows)
 pos = nx.spring_layout(B, k=0.50)
